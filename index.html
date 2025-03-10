@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Logo Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Logo Generator</h1>
+        <input type="text" id="businessName" placeholder="Enter Business Name">
+        <select id="style">
+            <option value="minimalist">Minimalist</option>
+            <option value="modern">Modern</option>
+            <option value="futuristic">Futuristic</option>
+        </select>
+        <button onclick="generateLogo()">Generate Logo</button>
+        <div id="logoContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
